@@ -1,0 +1,17 @@
+{
+    "name": "noureddinelatreche/waterstones",
+    "authors": [
+        {
+            "name": "nourlatreche",
+            "email": "nour@thebiggerboat.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WS\\":"src/"
+        }
+    },
+    "require": {
+        "spipu/html2pdf": "^5.2"
+    }
+}

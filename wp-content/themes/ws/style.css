@@ -1,0 +1,169 @@
+/*
+Theme Name: waterstones E gift cards
+Author: Holger Koenemann
+Author URI: http://www.holgerkoenemann.de
+GitHub Theme URI: https://github.com/understrap/understrap
+Description: Combination of Automattic´s _s theme and Bootstrap 4. Made as a solid starting point for your next theme project and WordPress website. Use it as starter theme or as a parent theme. It is up to you. Including Font Awesome support, built-in widget slider and much more you need for basic websites. IMPORTANT: All developer dependencies are not bundled with this install file. Just download the .zip, extract it and run "npm install" and "gulp copy-assets" inside the extracted /understrap folder.
+That downloads everything and moves it in place so that you can recompile your CSS and JS files;
+A developer version (with Gulp/node and Sass sources) is available on gitHub: https://github.com/understrap/understrap
+A child theme is available on Github, too: https://github.com/understrap/understrap-child;
+Version: 0.8.7
+License: UnderStrap WordPress Theme, Copyright 2013-2017 Holger Koenemann
+UnderStrap is distributed under the terms of the GNU GPL version 2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: understrap
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+UnderStrap is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+
+Resource Licenses:
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+Owl Carousel 2: http://www.owlcarousel.owlgraphic.com/ | https://github.com/smashingboxes/OwlCarousel2/blob/develop/LICENSE (Code licensed under MIT)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in /sass/
+The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
+
+...and now go out and play!
+*/
+
+#billing_postcode_field {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+.disable-select {
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    height: 39px;
+    padding: 5px;
+    width: 220px;
+    -webkit-appearance: button;
+    color: #ccc;
+}
+
+.giftee {
+    margin-top: 20px;
+}
+.giftee-wrapper {
+    padding: 20px 10px;
+    background: #d6e2e4;
+
+}
+.giftee-wrapper p {
+    margin-bottom: 0;
+}
+input.giftee-email, input.giftee-msg {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: none;
+}
+textarea.giftee-msg {
+    height: 65px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+.giftee-cart-wrapper {
+    margin: 10px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #444;
+}
+.giftee-edit .fa {
+    font-size: 25px;
+    margin: 10px 0;
+}
+.giftee-cart-wrapper span.giftee-msg {
+    display: block;
+}
+.repeater-wrapper .giftee-wrapper {
+    background: #eaeff2;
+}
+.giftee-inp-wrapper {
+    background: #d6e2e4;
+    padding: 10px;
+}
+.giftee-cart-wrapper input {
+    border: none;
+    margin-bottom: 10px !important;
+    padding: 5px;
+    width: 100%;
+}
+.giftee-cart-wrapper textarea {
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.g-edit, .g-save {
+    cursor: pointer;
+    color: #336b75;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    display: block;
+}
+.giftee-edit .g-save {
+    margin-bottom: -30px;
+ 
+}
+.download_gift_card {
+    margin: 10px 0 0 !important;
+}
+.order-email {
+    margin-top: 10px;
+}
+.order-msg {
+    margin-bottom: 15px;
+}
+.stock.in-stock, .optional {
+    display: none;
+}
+#order_comments_field label {
+    line-height: 22px;
+}
+.woocommerce #content table.cart img,
+.woocommerce table.cart img,
+.woocommerce-page #content table.cart img,
+.woocommerce-page table.cart img {
+    width: auto;
+    padding: 10px;
+    max-width: 150px;
+}
+.woocommerce form .form-row .input-text,
+.woocommerce-page form .form-row .input-text {
+    line-height: initial !important;
+}
+.egift-new {
+    color: red;
+}
+
+.blocks-3-slider .slick-track
+{
+    display: flex !important;
+}
+
+.blocks-3-slider .slick-slide
+{
+    height: inherit !important;
+}
+
+.shipping_address span.select2-container .select2-selection {
+    min-height: 35px;
+}
+
+.tablenav {
+	border: 1px solid #ff0000;
+	color: #ff0000;
+}

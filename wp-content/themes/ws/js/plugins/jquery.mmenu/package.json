@@ -1,0 +1,76 @@
+{
+  "_from": "jquery.mmenu",
+  "_id": "jquery.mmenu@6.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-oJOoF5By2hBajH0Ev538lJxX8us=",
+  "_location": "/jquery.mmenu",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery.mmenu",
+    "name": "jquery.mmenu",
+    "escapedName": "jquery.mmenu",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.mmenu/-/jquery.mmenu-6.1.2.tgz",
+  "_shasum": "a093a8179072da105a8c7d04bf9dfc949c57f2eb",
+  "_spec": "jquery.mmenu",
+  "_where": "/Volumes/Enterprise/WWW_workspace/little-tikes/wp-content/themes/understrap",
+  "author": {
+    "name": "Fred Heusschen",
+    "email": "info@frebsite.nl"
+  },
+  "bugs": {
+    "url": "https://github.com/FrDH/jQuery.mmenu/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The best jQuery plugin for app look-alike on- and off-canvas menus with sliding submenus for your website and webapp.",
+  "devDependencies": {
+    "@types/hammerjs": "^2.0.34",
+    "@types/jquery": "^2.0.41",
+    "@types/modernizr": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^1.5.1",
+    "gulp-umd": "^0.2.0",
+    "merge-stream": "^1.0.1",
+    "typescript": "^2.2.2"
+  },
+  "homepage": "https://github.com/FrDH/jQuery.mmenu#readme",
+  "keywords": [
+    "app",
+    "list",
+    "listview",
+    "megamenu",
+    "menu",
+    "mmenu",
+    "mobile",
+    "navigation",
+    "off-canvas",
+    "on-canvas",
+    "curtain",
+    "panels",
+    "submenu"
+  ],
+  "license": "CC-BY-NC-4.0",
+  "main": "dist/jquery.mmenu.all.js",
+  "name": "jquery.mmenu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrDH/jQuery.mmenu.git"
+  },
+  "version": "6.1.2"
+}

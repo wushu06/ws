@@ -1,0 +1,18 @@
+.block{
+    &-hero{
+        margin-top: 15px;
+        overflow: hidden;
+        padding: 0;
+        .slick-slider{
+            .arrow{
+                top: 50%;
+                &.left{
+                    left: 0;
+                }
+                &.right{
+                    right: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.blocks{
+    &-3-slider{
+        padding: 4rem 0 3rem;
+        ul{
+            display: none;
+            .slick-list{
+                overflow: hidden;
+            }
+            li{
+                display: inline-block;
+                margin: 0 .5rem;
+                img{
+                    border-radius: 6px;
+                }
+                h4{
+                    font-style: italic;
+                    margin: 1rem 0;
+                }
+                p{
+                    color: #666666;
+                    font-size: .85rem;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}

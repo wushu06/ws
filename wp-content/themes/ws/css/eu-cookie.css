@@ -1,0 +1,148 @@
+/*
+ * CSS
+ */
+.eupopup-wrapper {
+    position: relative;
+    height: auto;
+    min-height: 50px;
+    margin-top: -7px;
+}
+.eupopup-container {
+    background-color: #212121;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: left;
+    display: none;
+    z-index: 9999999;
+    min-height: 50px;
+}
+.eupopup-policy {
+    DISPLAY: INLINE-BLOCK;
+    color: #11b0cb !important;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-right: 15px;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+.eupopup-policy:hover {
+    color: #11b0cb;
+}
+.eupopup-container-top,
+.eupopup-container-fixedtop {
+    position: relative;
+    top: 0; left: 0; right: 0;
+}
+
+.eupopup-container-fixedtop {
+    position: fixed;
+}
+
+.eupopup-container-bottom {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+}
+
+.eupopup-container-bottomleft {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+}
+
+.eupopup-container-bottomright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+}
+
+.eupopup-closebutton {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+    filter: alpha(opacity=20);
+    position: absolute;
+    font-family: helvetica, arial, verdana, sans-serif;
+    top: 0; right: 0;
+    padding: 5px 10px;
+}
+.eupopup-closebutton:hover,
+.eupopup-closebutton:active {
+
+    text-decoration: none;
+}
+
+.eupopup-head {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 7px;
+    color: #fff;
+}
+
+.eupopup-body {
+    color: #d3d3d3;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.eupopup-body p {
+    padding-bottom: 10px;
+}
+.eupopup-buttons {
+    padding: 7px 0 5px 0;
+}
+
+.eupopup-button_1 {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 16px;
+    background: #ff4e00;
+    padding: 5px 10px;
+}
+
+.eupopup-button_2 {
+    color: #f6a21d;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.eupopup-button {
+    margin: 0 10px;
+}
+
+.eupopup-button:hover,
+.eupopup-button:focus {
+    text-decoration: underline;
+   
+}
+
+body .eupopup-color-inverse {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+body .eupopup-color-inverse .eupopup-head {
+    color: #000;
+}
+
+body .eupopup-style-compact {
+    text-align: left;
+    padding: 8px 30px 7px 20px;
+    line-height: 15px;
+}
+
+body .eupopup-style-compact .eupopup-head,
+body .eupopup-style-compact .eupopup-body,
+body .eupopup-style-compact .eupopup-buttons {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+body .eupopup-style-compact .eupopup-button {
+    margin: 0 5px;
+}
